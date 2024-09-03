@@ -1,0 +1,7 @@
+127.0.0.1	amore.dev
+::1	amore.dev ip6-localhost ip6-loopback
+fe00::0	ip6-localnet
+ff00::0	ip6-mcastprefix
+ff02::1	ip6-allnodes
+ff02::2	ip6-allrouters
+172.20.0.4	dbd4cf095adc

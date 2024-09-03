@@ -1,0 +1,4 @@
+kode;nama;kategori_obat_id;satuan_obat_id;harga;type_obat_id;diskon;;;;;;;;
+OBT-20210928-0001;Methylprednisolone;3;1;5000;;TRUE;;;;;;;;
+OBT-20210928-0002;Avermectin;1;1;7000;;TRUE;;;;;;;;
+OBT-20210928-0003;Ardium;3;1;8000;;TRUE;;;;;;;;

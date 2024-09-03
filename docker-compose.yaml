@@ -1,0 +1,33 @@
+version: "3.7"
+services:
+  app:
+    build:
+      args:
+        user: adi
+        uid: 1000
+      context: ./
+      dockerfile: ./.docker/Dockerfile
+    image: amore
+    container_name: amore-app
+    restart: unless-stopped
+    working_dir: /var/www/html
+    volumes:
+      - ./:/var/www/html
+    networks:
+      - network1
+  nginx:
+    image: nginx:alpine
+    container_name: amore-nginx
+    restart: unless-stopped
+    ports:
+      - 8020:81
+    volumes:
+      - ./:/var/www/html
+      - ./nginx/:/etc/nginx/conf.d/
+      # - ./nginx/hosts:/etc/hosts
+    networks:
+      - network1
+networks:
+  network1:
+    name: amore-network
+    external: true

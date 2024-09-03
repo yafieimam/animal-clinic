@@ -1,0 +1,5 @@
+isi binatang_id dengan semua kalau tindakan untuk semua binatang;;;;
+name;binatang_id;tarif;description;diskon (ya/tidak)
+pemeriksaan;1;25000;tes ppemeri;tidak
+Tes;1;10000;tes;ya
+Tes12345;semua;20000;tes;tidak
